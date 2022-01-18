@@ -1,6 +1,31 @@
-## Welcome to GitHub Pages
+## Average, Sum, AverageIf, SumIf -- What you need to know!
 
-You can use the [editor on GitHub](https://github.com/hggorel/AdvancedDataScience/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Manually summing and then averaging large data sets is quite taxing.  Of course it's easy when there are only a few data points, averaging 2 and 3 is trivial, 2+3 = 5/2 = 2.5, you're done!  However, if I handed you a data set of 1,000 numbers and expected the average quickly I'd be disappointed.  Luckily, Excel has a few built in functions that allow us to easily sum or average together large quantities of data.  These are the Average and Sum functions.  
+
+### AVERAGE
+Syntax: AVERAGE(number1, [number2], [number3], ...)  
+Examples: AVERAGE(A1:A20), AVERAGE(A1, A2)  
+### SUM
+Syntax: SUM(number1, [number2], [number3], ...)  
+Examples: SUM(A1:A5), SUM(A1:A5, B1:B5) 
+
+Occasionally, we may want to only sum or average certain pieces of a large data set, but the data set isn't organized or sorted.  For example, we want to only sum purchases over $1000 but your sheet is organized chronologically.  We ~could~ just use AVERAGE, and manually select which cells are over 1000, but this could take an exceptionally long time.  Luckily, (again), Excel has a build in conditional AVERAGE and conditional SUM functions, respectively named AVERAGEIF and SUMIF.
+
+### AVERAGEIF
+Syntax: AVERAGEIF(range, condition, [average_range])  
+Examples: AVERAGEIF (A1:A10, >10)
+### SUMIF
+Syntax: SUMIF(range, condition, [sum_range])  
+Examples: SUMIF(A1:A10, >50), SUMIF(B10:D4, <50, C4:D4)
+
+<!-- Need to do the HOW section -->
+
+<!-- Then link the spreadsheet -->
+
+
+<!-- ## Welcome to GitHub Pages 
+
+You can use the [editor on GitHub](https://github.com/hggorel/AdvancedDataScience/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -35,3 +60,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+-->
