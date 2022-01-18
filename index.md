@@ -18,7 +18,15 @@ Examples: AVERAGEIF (A1:A10, >10)
 Syntax: SUMIF(range, condition, [sum_range])  
 Examples: SUMIF(A1:A10, >50), SUMIF(B10:D4, <50, C4:D4)
 
-<!-- Need to do the HOW section -->
+## Step One - Start with Data
+Need to originally have a spreadsheet with different data values that you want to average or sum.
+<!-- ![Image](src) -->
+
+## Step Two - 
+
+## Step Three - 
+
+## Step Four - 
 
 <!-- Then link the spreadsheet -->
 
