@@ -20,16 +20,16 @@ Examples: SUMIF(A1:A10, >50), SUMIF(B10:D4, <50, C4:D4)
 
 ## Step One - Start with Data
 Need to originally have a spreadsheet with different data values that you want to average or sum.
-<!-- ![Image](src) -->
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
 
 ## Step Two - Select Cell to Place Average In  
-<!-- ![Image](src) -->
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
 
 ## Step Three - Write Function Call
-<!-- ![Image](src) -->
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
 
 ## Step Four - Hit Enter :)
-<!-- ![Image](src) -->
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
 
 <!-- Then link the spreadsheet -->
 
