@@ -22,11 +22,14 @@ Examples: SUMIF(A1:A10, >50), SUMIF(B10:D4, <50, C4:D4)
 Need to originally have a spreadsheet with different data values that you want to average or sum.
 <!-- ![Image](src) -->
 
-## Step Two - 
+## Step Two - Select Cell to Place Average In  
+<!-- ![Image](src) -->
 
-## Step Three - 
+## Step Three - Write Function Call
+<!-- ![Image](src) -->
 
-## Step Four - 
+## Step Four - Hit Enter :)
+<!-- ![Image](src) -->
 
 <!-- Then link the spreadsheet -->
 
