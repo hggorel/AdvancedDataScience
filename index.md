@@ -44,8 +44,9 @@ Our thorough example uses the AVERAGE function, however, to change out the funct
 
 | AVERAGE | AVERAGEIF |
 | --- | --- | 
-|   the call   |   the call   |
-|      |     |
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="350" height="350"> |  <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageIfCommand.png" width="350" height="350"> |
+<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageVsAverageIf.png" width="300" height="300">  
+So we can see that when we're only averaging things that are above 100, the average will go up because the lower numbers aren't bringing the average down.
 
 | SUM | SUMIF |
 | --- | --- |
