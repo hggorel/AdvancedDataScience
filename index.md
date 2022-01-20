@@ -17,19 +17,26 @@ Occasionally, we may want to only sum or average certain pieces of a large data 
 # How To Use
 
 ## Step One - Start with Data
-Need to originally have a spreadsheet with different data values that you want to average or sum.
+Need to originally have a spreadsheet with different data values that you want to average or sum.   
+
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/Spreadsheet.png" width="450" height="325">
 
 ## Step Two - Select Cell to Place Average In  
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChoosingCell.png" width="450" height="325">
 
 ## Step Three - Write Function Call
+For this example, we're going to use the Average function, if you wanted to use a different one you would simply type that command.  
+
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/WriteFunctionCall.png" width="450" height="325">
 
 ## Step Four - Add Parameters
+Let's say we want to average everything in the first column, so we are going to use the range A1:A10.  As you type in the parameters, the range you're selecting will highlight on the spreadsheet.  
+
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="450" height="325">
 
 ## Step Five - Hit Enter :)
+Hitting enter or leaving the box makes the function execute and leaves you with your final result, no math on your part!  
+
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FinalAverage.png" width="450" height="325">
 
 # Comparing the Different Functions
@@ -38,10 +45,13 @@ Our thorough example uses the AVERAGE function, however, to change out the funct
 | AVERAGE | AVERAGEIF |
 | --- | --- | 
 |   the call   |   the call   |
+|      |     |
 
 | SUM | SUMIF |
 | --- | --- |
 | the call | the call |
+|     |     |
+
 <!-- Then link the spreadsheet -->
 
 
