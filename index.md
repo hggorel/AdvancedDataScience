@@ -1,4 +1,4 @@
-## Average, Sum, AverageIf, SumIf -- What you need to know!
+# Average, Sum, AverageIf, SumIf -- What you need to know!
 
 Manually summing and then averaging large data sets is quite taxing.  Of course it's easy when there are only a few data points, averaging 2 and 3 is trivial, 2+3 = 5/2 = 2.5, you're done!  However, if I handed you a data set of 1,000 numbers and expected the average quickly I'd be disappointed.  Luckily, Excel has a few built in functions that allow us to easily sum or average together large quantities of data.  These are the Average and Sum functions.  
 
@@ -14,6 +14,8 @@ Occasionally, we may want to only sum or average certain pieces of a large data 
 | Syntax | AVERAGEIF(range, condition, [average_range])  |SUMIF(range, condition, [sum_range]) |
 | Examples | AVERAGEIF (A1:A10, >10) | SUMIF(B10:D4, <50) | 
 
+# How To Use
+
 ## Step One - Start with Data
 Need to originally have a spreadsheet with different data values that you want to average or sum.
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/Spreadsheet.png" width="450" height="325">
@@ -28,8 +30,18 @@ Need to originally have a spreadsheet with different data values that you want t
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="450" height="325">
 
 ## Step Five - Hit Enter :)
-<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FinalAverage.png" width="450" height="325"> -->
 
+# Comparing the Different Functions
+Our thorough example uses the AVERAGE function, however, to change out the functions you only change the last two steps, let's compare these on our data.
+
+| AVERAGE | AVERAGEIF |
+| --- | --- | 
+|   the call   |   the call   |
+
+| SUM | SUMIF |
+| --- | --- |
+| the call | the call |
 <!-- Then link the spreadsheet -->
 
 
