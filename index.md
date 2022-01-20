@@ -20,7 +20,7 @@ Examples: SUMIF(A1:A10, >50), SUMIF(B10:D4, <50, C4:D4)
 
 ## Step One - Start with Data
 Need to originally have a spreadsheet with different data values that you want to average or sum.
-<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="350" height="275"> -->
+<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/Spreadsheet.png" width="450" height="325">
 
 ## Step Two - Select Cell to Place Average In  
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChoosingCell.png" width="450" height="325">
@@ -28,7 +28,10 @@ Need to originally have a spreadsheet with different data values that you want t
 ## Step Three - Write Function Call
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/WriteFunctionCall.png" width="450" height="325">
 
-## Step Four - Hit Enter :)
+## Step Four - Add Parameters
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
+
+## Step Five - Hit Enter :)
 <!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
 
 <!-- Then link the spreadsheet -->
