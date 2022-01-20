@@ -30,7 +30,7 @@ Need to originally have a spreadsheet with different data values that you want t
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="450" height="325">
 
 ## Step Five - Hit Enter :)
-<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FinalAverage.png" width="450" height="325"> -->
+<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FinalAverage.png" width="450" height="325">
 
 # Comparing the Different Functions
 Our thorough example uses the AVERAGE function, however, to change out the functions you only change the last two steps, let's compare these on our data.
