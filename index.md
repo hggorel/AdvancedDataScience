@@ -2,21 +2,17 @@
 
 Manually summing and then averaging large data sets is quite taxing.  Of course it's easy when there are only a few data points, averaging 2 and 3 is trivial, 2+3 = 5/2 = 2.5, you're done!  However, if I handed you a data set of 1,000 numbers and expected the average quickly I'd be disappointed.  Luckily, Excel has a few built in functions that allow us to easily sum or average together large quantities of data.  These are the Average and Sum functions.  
 
-### AVERAGE
-Syntax: AVERAGE(number1, [number2], [number3], ...)  
-Examples: AVERAGE(A1:A20), AVERAGE(A1, A2)  
-### SUM
-Syntax: SUM(number1, [number2], [number3], ...)  
-Examples: SUM(A1:A5), SUM(A1:A5, B1:B5) 
+| | AVERAGE | SUM |
+| --- | --- | ---|
+|Syntax| AVERAGE(number1, [number2], [number3], ...)| SUM(number1, [number2], [number3], ...)  |
+| Examples | AVERAGE(A1:A20), AVERAGE(A1, A2) | SUM(A1:A5), SUM(A1:A5, B1:B5) |
 
 Occasionally, we may want to only sum or average certain pieces of a large data set, but the data set isn't organized or sorted.  For example, we want to only sum purchases over $1000 but your sheet is organized chronologically.  We ~could~ just use AVERAGE, and manually select which cells are over 1000, but this could take an exceptionally long time.  Luckily, (again), Excel has a build in conditional AVERAGE and conditional SUM functions, respectively named AVERAGEIF and SUMIF.
 
-### AVERAGEIF
-Syntax: AVERAGEIF(range, condition, [average_range])  
-Examples: AVERAGEIF (A1:A10, >10)
-### SUMIF
-Syntax: SUMIF(range, condition, [sum_range])  
-Examples: SUMIF(A1:A10, >50), SUMIF(B10:D4, <50, C4:D4)
+| | AVERAGEIF | SUMIF |
+| --- | --- | ---|
+| Syntax | AVERAGEIF(range, condition, [average_range])  |SUMIF(range, condition, [sum_range]) |
+| Examples | AVERAGEIF (A1:A10, >10) | SUMIF(B10:D4, <50) | 
 
 ## Step One - Start with Data
 Need to originally have a spreadsheet with different data values that you want to average or sum.
@@ -29,7 +25,7 @@ Need to originally have a spreadsheet with different data values that you want t
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/WriteFunctionCall.png" width="450" height="325">
 
 ## Step Four - Add Parameters
-<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
+<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="450" height="325">
 
 ## Step Five - Hit Enter :)
 <!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/" width="225" height="275"> -->
