@@ -97,10 +97,10 @@ So we can see that the SUMIF is less than the SUM because we restricted which on
 <!-- Then link the spreadsheet -->
 ## Spreadsheets
 First Sheet: Just the Numbers:  
-[Link](/assets/Average(If),Sum(If).xlsx)  
+[Link](https://github.com/hggorel/AdvancedDataScience/blob/gh-pages/assets/Average(If)%2C%20Sum(If).xlsx)  
 
 Second Sheet: Ice Cream Shoppe:  
-[Link](/assets/SUMIF.xlsx)
+[Link](https://github.com/hggorel/AdvancedDataScience/blob/gh-pages/assets/SUMIF.xlsx)
 
 
 <!-- ## Welcome to GitHub Pages 
