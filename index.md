@@ -39,37 +39,15 @@ Hitting enter or leaving the box makes the function execute and leaves you with 
 
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FinalAverage.png" width="450" height="325">
 
-# Comparing the Different Functions
-Our thorough example uses the AVERAGE function, however, to change out the functions you only change the last two steps, let's compare these on our data.
-
-## Average Vs. AverageIf
-
-| AVERAGE | AVERAGEIF |
-| --- | --- | 
-| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageSmallCommand.png" width="350" height="350"> |  <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageIfCommand.png" width="350" height="350"> |  
-
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageVsAverageIf.png" width="300" height="300">  
-So we can see that when we're only averaging things that are above 100, the average will go up because the lower numbers aren't bringing the average down.
-
-
-## Sum Vs. SumIf
-
-| SUM | SUMIF |  
-| --- | --- |
-| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumCall.png" width="300" height="300">  | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumifCall.png" width="300" height="300"> |  
-
- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumResults.png" width="300" height="300">  
-So we can see that the SUMIF is less than the SUM because we restricted which ones we were adding.
-
 # Second Example
 
 ## Step One - Start with Data
 Need to originally have a spreadsheet with different data values that you want to average or sum.   
 
-<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/Spreadsheet.png" width="450" height="325"> -->
+<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ShopSpreadsheet.png" width="450" height="325">
 
 ## Step Two - Select Cell to Place Result In  
-<!--<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChoosingCell.png" width="450" height="325"> -->
+<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/TotalsSetUp.png" width="450" height="325">
 
 ## Step Three - Write Function Call With Parameters
 For this example, we're going to use the SUMIF function here,  
@@ -79,10 +57,10 @@ We are going to use the "Flavor" Column to determine what we're adding, so our r
 
 For this we're totalling all four flavors so these are the calls for each flavor
 
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChocolateComp.png" width="450" height="325">
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/VanillaComp.png" width="450" height="325">
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/StrawberryComp.png" width="450" height="325">
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/CookiesNCreamComp.png" width="450" height="325">
+|    |     |
+| --- | --- |
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChocolateComp.png" width="450" height="325"> | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/VanillaComp.png" width="450" height="325"> |
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/StrawberryComp.png" width="450" height="325"> | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/CookiesNCreamComp.png" width="450" height="325"> |
 
 ## Step Four - Hit Enter :)
 Hitting enter or leaving the box makes the function execute and leaves you with your final result, no math on your part!  
@@ -94,11 +72,31 @@ Now that you have these totals set up, it's cool to note that they are running t
 
 See the highlighted cells, the one total and the sum.
 
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/HighlightingNum.png" width="450" height="325">
+|  Before Change   |  After Change   |
+| --- | --- |
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/HighlightingNum.png" width="450" height="325"> | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumChanging.png" width="450" height="325"> |
 
-Now after it's changed, the sum changes too!  
+# Comparing the Different Functions
+Our thorough example uses the AVERAGE function, however, to change out the functions you only change the last two steps, let's compare these on our data.
 
-<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumChanging.png" width="450" height="325">
+## Average Vs. AverageIf
+
+| AVERAGE | AVERAGEIF |
+| --- | --- | 
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageSmallCommand.png" width="350" height="350"> |  <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageIfCommand.png" width="350" height="350"> |  
+| = 1358.2 | = 917.429 | 
+
+So we can see that when we're only averaging things that are above 100, the average will go up because the lower numbers aren't bringing the average down.
+
+
+## Sum Vs. SumIf
+
+| SUM | SUMIF |  
+| --- | --- |
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumCall.png" width="300" height="300">  | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumifCall.png" width="300" height="300"> |  
+| = 13582 | = 13422 |
+
+So we can see that the SUMIF is less than the SUM because we restricted which ones we were adding.
 
 <!-- Then link the spreadsheet -->
 
