@@ -95,6 +95,12 @@ So we can see that when we're only averaging things that are above 100, the aver
 So we can see that the SUMIF is less than the SUM because we restricted which ones we were adding.
 
 <!-- Then link the spreadsheet -->
+## Spreadsheets
+First Sheet: Just the Numbers:  
+[Link](/assets/Average(If),Sum(If).xlsx)  
+
+Second Sheet: Ice Cream Shoppe:  
+[Link](/assets/SUMIF.xlsx)
 
 
 <!-- ## Welcome to GitHub Pages 
