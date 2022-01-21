@@ -35,7 +35,7 @@ Let's say we want to average everything in the first column, so we are going to 
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="450" height="325">
 
 ## Step Five - Hit Enter :)
-Hitting enter or leaving the box makes the function execute and leaves you with your final result, no math on your part!  
+Hitting enter or leaving the box (without deleting it) makes the function execute and leaves you with your final result, no math on your part!  
 
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FinalAverage.png" width="450" height="325">
 
@@ -50,12 +50,8 @@ Need to originally have a spreadsheet with different data values that you want t
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/TotalsSetUp.png" width="450" height="325">
 
 ## Step Three - Write Function Call With Parameters
-For this example, we're going to use the SUMIF function here,  
-Recall the syntax for SUMIF: SUMIF(range, condition, [sum_range]).  In our virst example with AVERAGE we only used the range parameter.  Let's use the condition and [sum_range] parameters too.  The condition is applied to the range given.  So we are able to use multiple columns to choose what numbers to add like this.
-We are going to use the "Flavor" Column to determine what we're adding, so our range is the flavor column, and our sum_range is the total column.
-
-
-For this we're totalling all four flavors so these are the calls for each flavor
+Recall the syntax for SUMIF: SUMIF(range, condition, [sum_range]).  In our first example with AVERAGE we only used the range parameter.  Let's use the condition and [sum_range] parameters too.  The condition we give is applied to the range we input, which doesn't have to be the sum_range.  We can select things based on one value and sum a different value that corresponds to the first one.  We could compare values, or match strings, etc.  
+For this example we are going to sum up the total sales of each flavor of ice cream.  So our "flavor" column will be our 'range', and the sum_range will be the "number of cones" column.  The if we give the condition as a String, matching it, or having an equivalent string satisfies the condition.  Here is how we write all four SUMIF commands for the Shoppe.
 
 |    |     |
 | --- | --- |
