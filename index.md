@@ -21,7 +21,7 @@ Need to originally have a spreadsheet with different data values that you want t
 
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/Spreadsheet.png" width="450" height="325">
 
-## Step Two - Select Cell to Place Average In  
+## Step Two - Select Cell to Place Result In  
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChoosingCell.png" width="450" height="325">
 
 ## Step Three - Write Function Call
@@ -52,7 +52,9 @@ Our thorough example uses the AVERAGE function, however, to change out the funct
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageVsAverageIf.png" width="300" height="300">  
 So we can see that when we're only averaging things that are above 100, the average will go up because the lower numbers aren't bringing the average down.
 
+
 ## Sum Vs. SumIf
+
 | SUM | SUMIF |  
 | --- | --- |
 | hi | hi |
@@ -63,6 +65,27 @@ So we can see that the SUMIF is less than the SUM because we restricted which on
 
 # Second Example
 
+## Step One - Start with Data
+Need to originally have a spreadsheet with different data values that you want to average or sum.   
+
+<!-- <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/Spreadsheet.png" width="450" height="325"> -->
+
+## Step Two - Select Cell to Place Result In  
+<!--<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/ChoosingCell.png" width="450" height="325"> -->
+
+## Step Three - Write Function Call
+For this example, we're going to use the SUMIF function here,  
+
+<!--<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/WriteFunctionCall.png" width="450" height="325"> -->
+
+## Step Four - Add Parameters
+Recall the syntax for SUMIF: SUMIF(range, condition, [sum_range]).  In our virst example with AVERAGE we only used the range parameter.  Let's use the condition and [sum_range] parameters too.  The condition is applied to the range given.  So we are able to use multiple columns to choose what numbers to add like this.
+We are going to use the "Flavor" Column to determine what we're adding, so our range is the flavor column, and our sum_range is the total column.
+
+<!--<img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="450" height="325"> -->
+
+## Step Five - Hit Enter :)
+Hitting enter or leaving the box makes the function execute and leaves you with your final result, no math on your part!  
 
 <!-- Then link the spreadsheet -->
 
