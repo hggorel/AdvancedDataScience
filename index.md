@@ -42,16 +42,19 @@ Hitting enter or leaving the box makes the function execute and leaves you with 
 # Comparing the Different Functions
 Our thorough example uses the AVERAGE function, however, to change out the functions you only change the last two steps, let's compare these on our data.
 
+## Average Vs. AverageIf
 | AVERAGE | AVERAGEIF |
 | --- | --- | 
 | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/FullCommand.png" width="350" height="350"> |  <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageIfCommand.png" width="350" height="350"> |
 <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/AverageVsAverageIf.png" width="300" height="300">  
 So we can see that when we're only averaging things that are above 100, the average will go up because the lower numbers aren't bringing the average down.
 
+## Sum Vs. SumIf
 | SUM | SUMIF |
 | --- | --- |
-| the call | the call |
-|     |     |
+| <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumCall.png" width="300" height="300">  | <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumifCall.png" width="300" height="300"> |
+ <img src="https://hggorel.github.io/AdvancedDataScience/assets/images/SumResults.png" width="300" height="300">  
+So we can see that the SUMIF is less than the SUM because we restricted which ones we were adding.
 
 <!-- Then link the spreadsheet -->
 
