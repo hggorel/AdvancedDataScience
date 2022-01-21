@@ -1,5 +1,5 @@
 # Average, Sum, AverageIf, SumIf -- What you need to know!
-
+### By Hannah Gorel
 Manually summing and then averaging large data sets is quite taxing.  Of course it's easy when there are only a few data points, averaging 2 and 3 is trivial, 2+3 = 5/2 = 2.5, you're done!  However, if I handed you a data set of 1,000 numbers and expected the average quickly I'd be disappointed.  Luckily, Excel has a few built in functions that allow us to easily sum or average together large quantities of data.  These are the Average and Sum functions.  
 
 | | AVERAGE | SUM |
